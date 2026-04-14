@@ -1,5 +1,5 @@
 import streamlit as st
-from services import sql_analysis, csv_analysis
+from services import csv_analysis
 import pandas as pd
 import uuid
 
