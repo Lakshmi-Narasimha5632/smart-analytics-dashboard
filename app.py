@@ -8,7 +8,7 @@ st.set_page_config(page_title="Smart Analytics", layout="wide")
 st.title("📊 Smart Analytics Platform")
 st.markdown("Analyze SQL data or upload your own dataset")
 
-mode = st.sidebar.radio("Mode", ["Database", "Upload"])
+mode = "Upload"
 
 # ---------------- KPI DISPLAY ---------------- #
 def display_kpis(kpis):
